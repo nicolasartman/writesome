@@ -1,0 +1,9 @@
+<template name="postItem">
+  {{#if editable}}
+    <input type="text" value="{{body}}">
+  {{else}}
+    <p>
+      {{body}}
+    </p>
+  {{/if}}
+</template>
